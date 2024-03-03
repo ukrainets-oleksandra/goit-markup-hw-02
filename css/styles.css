@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 a {
@@ -14,18 +16,22 @@ button {
   cursor: pointer;
 }
 
-.accent {
-  color: #4d5ae5;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.logo-header {
+  color: #2e2f42;
+}
+
+.address-list {
+  font-style: normal;
 }
 
 .header-menu-link {
@@ -37,7 +43,8 @@ button {
 }
 
 .header-menu-link:hover,
-.header-menu-link:focus {
+.header-menu-link:focus,
+.header-menu-link:active {
   color: #404bbf;
 }
 
@@ -71,10 +78,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
 .section-first-btn:hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .visually-hidden {
@@ -141,7 +149,7 @@ button {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -169,13 +177,7 @@ footer {
 }
 
 .footer-logo {
-  font-family: "Raleway", sans-serif;
   color: #f4f4fd;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .footer-text {
