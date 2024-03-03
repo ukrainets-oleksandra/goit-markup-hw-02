@@ -30,7 +30,7 @@ button {
   color: #2e2f42;
 }
 
-.header-address-list {
+.header-address {
   font-style: normal;
 }
 
@@ -83,7 +83,8 @@ button {
   font-family: "Roboto", sans-serif;
 }
 
-.section-first-btn:hover {
+.section-first-btn:hover,
+.section-first-btn:focus {
   background-color: #404bbf;
 }
 
@@ -137,6 +138,10 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio {
+  background-color: #ffffff;
 }
 
 .portfolio-title {
