@@ -30,7 +30,7 @@ button {
   color: #2e2f42;
 }
 
-.address-list {
+.header-address-list {
   font-style: normal;
 }
 
@@ -43,11 +43,14 @@ button {
 }
 
 .header-menu-link:hover,
-.header-menu-link:focus,
-.header-menu-link:active {
+.header-menu-link:focus {
   color: #404bbf;
 }
 
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
 .header-address-link {
   font-weight: 400;
   font-size: 16px;
@@ -68,7 +71,6 @@ button {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 .section-first-btn {
@@ -86,12 +88,6 @@ button {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -124,7 +120,6 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -133,7 +128,6 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -142,7 +136,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 
@@ -152,7 +145,6 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
 
