@@ -157,6 +157,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
 }
 
 .portfolio-item {
