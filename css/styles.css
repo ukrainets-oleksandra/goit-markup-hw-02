@@ -72,6 +72,7 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 .section-first-btn {
   background: #4d5ae5;
@@ -122,6 +123,11 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
+}
+
+.team-list-item {
+  background-color: #ffffff;
 }
 
 .team-name {
